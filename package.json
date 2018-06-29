@@ -1,0 +1,26 @@
+{
+  "name": "running",
+  "version": "1.0.0",
+  "description": "libs and tools for runners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "runners",
+    "running",
+    "units",
+    "convertion"
+  ],
+  "author": "Damian Suarez (http://damian.blog/)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "length.js": "^1.0.2",
+    "time-convert": "0.0.2",
+    "timestring": "^5.0.1"
+  },
+  "bin": {
+    "running": "cli.js"
+  }
+}
